@@ -36,7 +36,7 @@ function OzluSozYaz($content)
     $soz[23] = "Hayatta başarılı olmak için, her gün bir adım atmanız yeterlidir. - Mark Twain";
     $soz[24] = "Hayat, deneyimleyebileceğimiz bir maceradır, bu nedenle her anın tadını çıkarın. - Paulo Coelho";
 
-    return $content . "&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;" . $soz[$rand];
+    return $content . $soz[$rand];
 }
 
 ?>
